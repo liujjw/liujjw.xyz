@@ -1,11 +1,9 @@
 ---
-title: Bog
+title: An encounter with Bog
 date: 2022/5/11
 description: Where were you when terra collapsed?
 tag: ironic
 ---
-
-# An encounter with Bog
 
 How I found out that Bogdanoff (the crypto boogeyman) is real. Here's my story:
 
