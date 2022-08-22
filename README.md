@@ -1,4 +1,15 @@
-# Portfolio Starter Kit
+# Dev server
+`npm install && npm run dev`
+
+# Config
+Serverless deploy on Netlify with Netlify DNS nameservers (domain bought on Google Domains), and ImprovMX mail forwarding and MX records (Netlify MX records don't have forwarding). Google workspaces next. Fontawesome kit.
+
+# Inspiration
+Steve, Andrej
+
+# Original text
+
+## Portfolio Starter Kit
 
 This portfolio is built with **Next.js** and a library called [Nextra](https://nextra.vercel.app/). It allows you to write Markdown and focus on the _content_ of your portfolio. This starter includes:
 
@@ -17,20 +28,3 @@ https://demo.vercel.blog
 1. Update the meta tags in `pages/_document.tsx`.
 1. Update the posts inside `pages/posts/*.md` with your own content.
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example blog my-blog
-# or
-yarn create next-app --example blog my-blog
-# or
-pnpm create next-app --example blog my-blog
-```
-
-## Dev server
-`npm run dev`
-
-## Config
-Serverless deploy on Netlify with Netlify DNS nameservers (domain bought on Google Domains), and ImprovMX mail forwarding and MX records (Netlify MX records don't have forwarding). Alternative to ImprovMx would be Google workspaces. Fontawesome kit.
