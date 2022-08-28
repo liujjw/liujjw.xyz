@@ -64,6 +64,9 @@ img.next-image {
   color: #69778c;
 }
 
+.name {
+  font-size: x-large;
+}
 /* .fun_ul {
   list-style: none;
 }
