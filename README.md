@@ -1,28 +1,10 @@
 # Dev server
-`npm install && npm run dev`
+This portfolio is built with **Next.js** and a library called [Nextra](https://nextra.vercel.app/). For dev, `npm install && npm run dev`. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-# Config
-Serverless deploy on Netlify with Netlify DNS nameservers (domain bought on Google Domains), and ImprovMX mail forwarding and MX records (Netlify MX records don't have forwarding). Google workspaces next. Fontawesome kit.
+# Deployment config
+Serverless deploy on Netlify with Netlify DNS nameservers (domain bought on Google Domains) hooked up to the Github repo, and ImprovMX mail forwarding and MX records (Netlify MX records don't have forwarding). Google workspaces next. Fontawesome kit.
 
-# Inspiration
-Steve, Andrej
-
-# Original text
-
-## Portfolio Starter Kit
-
-This portfolio is built with **Next.js** and a library called [Nextra](https://nextra.vercel.app/). It allows you to write Markdown and focus on the _content_ of your portfolio. This starter includes:
-
-- Automatically configured to handle Markdown/MDX
-- Generates an RSS feed based on your posts
-- A beautiful theme included out of the box
-- Easily categorize posts with tags
-- Fast, optimized web font loading
-
-https://demo.vercel.blog
-
-## Configuration
-
+## Additional configuration
 1. Update your name in `theme.config.js` or change the footer.
 1. Update your name and site URL for the RSS feed in `scripts/gen-rss.js`.
 1. Update the meta tags in `pages/_document.tsx`.
