@@ -51,7 +51,7 @@ export function SidebarItem({ chat, children }: SidebarItemProps) {
           'group w-full pl-8 pr-16',
           isActive && 'bg-accent'
         )}
-      >
+        >
         <div
           className="relative max-h-5 flex-1 select-none overflow-hidden text-ellipsis break-all"
           title={chat.title}
@@ -61,5 +61,5 @@ export function SidebarItem({ chat, children }: SidebarItemProps) {
       </Link>
       {isActive && <div className="absolute right-2 top-1">{children}</div>}
     </div>
-  )
+  );
 }

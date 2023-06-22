@@ -64,7 +64,7 @@ export function ChatMessage({ message, ...props }: ChatMessageProps) {
                   value={String(children).replace(/\n$/, '')}
                   {...props}
                 />
-              )
+              );
             }
           }}
         >
@@ -73,5 +73,5 @@ export function ChatMessage({ message, ...props }: ChatMessageProps) {
         <ChatMessageActions message={message} />
       </div>
     </div>
-  )
+  );
 }
