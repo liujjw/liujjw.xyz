@@ -6,7 +6,11 @@ const withNextra = require('nextra')({
 })
 
 const nextConfig = {
-  // any configs you need
+  reactStrictMode: true,
+  experimental: {
+    serverActions: true,
+  },
 }
 
 module.exports = withNextra(nextConfig)
+

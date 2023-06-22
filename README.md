@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cdc1b524-7447-4329-a5ca-069151b85d98/deploy-status)](https://app.netlify.com/sites/friendly-dolphin-9e95a8/deploys)
 # Dev server
 This portfolio is built with **Next.js** (similar to `create-next-app`) and a library called [Nextra](https://nextra.vercel.app/) with the theme `nextra-theme-blog`. For dev, `npm install && npm run dev`. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
