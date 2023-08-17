@@ -5,6 +5,9 @@ This portfolio is built with **Next.js** (similar to `create-next-app`) and a li
 # Directory structure
 Configure the Next config with `next.config.js` and Nextra theme with `theme.config.js`. The `public/` directory contains assets and resources like images. The files and directories in the `pages/` directory map to routes, so it's a router (like the newer `app/` directory in Next.js, which takes priority). For example, `pages/misc.mdx` maps to the route `liujjw.xyz/misc`. A directory like `pages/posts/` needs an `index.md`. The `pages/api` directory is mapped to `/api/*` for (same-origin by default) backend API calls for the front-end pages and are not mapped to frontend pages. The `.mdx` files support React `jsx` as well as standard Markdown and come from Nextra. Standard Next.js `.jsx` pages do not come out the box, so use `.mdx`. 
 
+# Chatbot
+The Chatbot is just an `iframe` into a deployment of the chatbot site. 
+
 # Deployment config
 Serverless deploy on Netlify with Netlify DNS nameservers (domain bought on Google Domains) hooked up to the Github repo, and ImprovMX mail forwarding and MX records (Netlify MX records don't have forwarding). Google workspaces next. Fontawesome kit.
 
