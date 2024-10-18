@@ -26,7 +26,7 @@ const Chat = () => {
             width="600"
             height="600"
             src="https://chatbot-c728c4.netlify.app/"
-            style={{ display: loading ? 'none' : 'block' }}>
+            style={{ display: loading ? 'none' : 'block', width: '75vh' }}>
         </iframe>
     </div>
   )
