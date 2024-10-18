@@ -9,7 +9,7 @@ Configure the Next config with `next.config.js` and Nextra theme with `theme.con
 The Chatbot is just an `iframe` into a deployment of the chatbot site. 
 
 # Deployment config
-Serverless deploy on Netlify with Netlify DNS nameservers (domain bought on Google Domains) hooked up to the Github repo, and ImprovMX mail forwarding and MX records (Netlify MX records don't have forwarding). Google workspaces next. Fontawesome kit.
+Serverless deploy on Netlify with Netlify DNS nameservers (domain bought on Google Domains) hooked up to the Github repo, and ImprovMX mail forwarding and MX records (Netlify MX records don't have forwarding). Transitioned to Squarespace, everything still working as usual. Google workspaces next. Fontawesome kit.
 
 ## Additional configuration
 1. Update your name in `theme.config.js` or change the footer.
