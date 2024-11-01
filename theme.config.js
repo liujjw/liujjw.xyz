@@ -16,6 +16,5 @@ export default {
       `}</style>
     </footer>
   ),
-  darkMode: 'false',
   // forceTheme: 'light'
 }
